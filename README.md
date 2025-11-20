@@ -24,4 +24,4 @@ El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. L
 - `NASA Exoplanet Archive` : https://exoplanetarchive.ipac.caltech.edu/
 
 ##
-![Criaturas](https://i.postimg.cc/LXMHqzxs/IMG_1543.png)
+<img src="https://i.postimg.cc/LXMHqzxs/IMG_1543.png" alt="dibujo" width="200"/>

@@ -41,6 +41,18 @@ El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. L
 - Dan Salgado : Creación del README, contribuciones en el EDA. Encargado de la creación de la página web del proyecto.
 - Esperanza Oliva : Implementación del modelo K-Means (Clustering) sobre la clasificación de exoplanetas según características fisicas. Contribuciones en el EDA, contribuciones en 'habitable_score' .
 
+### Librerías
+- numpy
+- pandas
+- MatPlotLib
+- Seaborn
+- Sklearn
+- os
+  
+- Rebound
+- Pygame
+- collections
+
 
 #### Bibliografias:
 

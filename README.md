@@ -1,7 +1,7 @@
 # IMT2200-Proyecto-Grupal-A.R.D.E
 ## Proyecto Semestral introducción a Ciencia de Datos. 
 ## Integrantes:
-* Agustín Perez
+* Agustín Pérez
 * Rayén Godoy
 * Dan Salgado
 * Esperanza Oliva
@@ -14,6 +14,9 @@ Exploración de Datasets astronómicos con enfoque en los exoplanetas, con fines
 El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. Los archivos principales se encuentran en la carpeta de notebooks.
 - `data`: archivos csv con los datos a analizar.
 - `notebooks`: notebooks de investigación con carpetas `imagenes-notebook-entrega-inicial` y  `planet_viz_script`.
+    - `imagenes-notebook-entrega-inicial`
+    - `planet_viz_script`
+      - `simulación.py` 
 - `output-figures`: imágenes es formato png de los gráficos resultantes del análisis.
 
 ### Notebooks

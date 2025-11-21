@@ -31,10 +31,10 @@ El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. L
 Referencias Científicas:
 
 Fulton, B. J., & Petigura, E. (2017). The California-Kepler Survey: a gap in the radius distribution of small planets.
-(https://www.benjaminfulton.com/files/20170331_aspen.pdf)
+https://www.benjaminfulton.com/files/20170331_aspen.pdf
 
 Chen, J., & Kipping, D. (2017). A Probabilistic Mass–Radius Relationship for Exoplanets.
-(https://arxiv.org/abs/1603.08614)
+https://arxiv.org/abs/1603.08614
 
 Weiss, L., & Marcy, G. (2014). The Mass-Radius Relation for 65 Exoplanets.
 https://www.researchgate.net/publication/259105987_The_Mass-Radius_Relation_Between_65_Exoplanets_Smaller_than_4_Earth_Radii
@@ -42,8 +42,8 @@ https://www.researchgate.net/publication/259105987_The_Mass-Radius_Relation_Betw
 Fortney, J. et al. (2007). Planetary Structure Models for Gas Giants.
 https://www.ucolick.org/~jfortney/papers/Fortney07.pdf
 
-Burrows, A. et al. (1997). Theory and Limits of Brown Dwarfs.
-(https://arxiv.org/abs/1008.5150)
+Burrows, A. et al. (1997). Theory and Limits of Brown Dwarfs.                                    
+https://arxiv.org/abs/1008.5150
 
 Revisited Mass‑Radius Relations for Exoplanets below 120 Earth Masses (Otegi et al., 2020)
 https://arxiv.org/pdf/1911.04745

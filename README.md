@@ -24,7 +24,7 @@ El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. L
 - `NASA Exoplanet Archive` : https://exoplanetarchive.ipac.caltech.edu/
 
 #### Resumen del proyecto:
-- 
+- El proyecto está compuesto por el notebook principal `entrega_inicial.ipynb`, en el cual se trabaja con los datos de exoplanetas del NASA Archive. Se hace una limpieza de los datos y se utilizan para responder preguntas de investigación que se plantean inicialmente. En cada una de estas preguntas se hace uso de gráficos para mejor análisis. Finalmente, el notebook de `planet_visualizer.ipynb` contiene un simulador de exoplanetas (utilizando los archivos dentro de `planet_viz_script`), con pasos para su uso. En la entrega final, se finaliza por completo la sección de EDA, se añade la simulación y modelos (clustering).
 
 #### Bibliografias:
 

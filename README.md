@@ -13,14 +13,19 @@ Exploración de Datasets astronómicos con enfoque en los exoplanetas, con fines
 ### Guía de Uso
 El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. Los archivos principales se encuentran en la carpeta de notebooks.
 - `data`: archivos csv con los datos a analizar.
+    - `Dataset PSComppars`: csv de data compuesta extraído del NASA Exoplanet Archive Planetary Systems Composite Data. Dataset Principal.
+    - `exoplanets_physics_data`: csv subconjunto de PSComppars que solo contiene características orbitales y físicas de los exoplanetas. Utilizado en `simulación.py` para la simulación de las órbitas y en                                          `planet_visualizer` para mostrar una previa de el Dataset al usuario que interactua.
 - `notebooks`: notebooks de investigación con carpetas `imagenes-notebook-entrega-inicial` y  `planet_viz_script`.
     - `imagenes-notebook-entrega-inicial`
-    - `planet_viz_script`
-      - `simulación.py` 
-- `output-figures`: imágenes es formato png de los gráficos resultantes del análisis.
+    - `planet_viz_script`: Carpeta con el script de la simulación.
+        - `__init__.py` : Archivo vacío que permite importar simulación.py en `planet_visualizer.ipynb`
+        - `simulación.py` : Script que permite visualizar los sistemas planetarios del notebook `planet_visualizer.ipynb`
+    - `notebook_principal` : Notebook principal donde se realiza la gran mayoría del proyecto. Incluye el análisis de datos, EDA, visualización de la información mediante gráficos de respaldo, aplicación de              Machine Learning y comentarios sobre la misma investigación del proyecto.
+    - `planet_visualizer.ipynb` : Noteboook interactivo que permite visualizar el movimiento de los sistemas planetarios del Dataset. Su forma de uso e instrucciones se encuentran en él
+- `output-figures`: Carpeta de las imágenes en formato png de todos los gráficos resultantes del análisis de Datos (outputs de `notebook_principal`.
 
 ### Notebooks
-- `entrega_inicial.ipynb`
+- `entrega_inicial.ipynb` : Se recomienda ejecutar este primero, y luego interactuar con la simulación
 - `planet_visualizer.ipynb`
 
 #### Listado de Datasets:

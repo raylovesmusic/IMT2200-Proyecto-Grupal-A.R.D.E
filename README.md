@@ -34,6 +34,14 @@ El repositorio contiene las carpetas de `data`, `notebooks`, `output-figures`. L
 #### Resumen del proyecto:
 - El proyecto está compuesto por el notebook principal `entrega_inicial.ipynb`, en el cual se trabaja con los datos de exoplanetas del NASA Archive. Se hace una limpieza de los datos y se utilizan para responder preguntas de investigación que se plantean inicialmente. En cada una de estas preguntas se hace uso de gráficos para mejor análisis. Finalmente, el notebook de `planet_visualizer.ipynb` contiene un simulador de exoplanetas (utilizando los archivos dentro de `planet_viz_script`), con pasos para su uso. En la entrega final, se finaliza por completo la sección de EDA, se añade la simulación y modelos (clustering).
 
+## Distribución de los Roles de Trabajo:
+
+- Agustín Perez : Carga de datos inicial (creación de los DataFrames principales), creación de la función definitoria para el 'habitable_score' de un exoplaneta, contribuciones al EDA (gráficos en 2D sobre la proyección de los exoplanetas). 
+- Rayén Godoy : Creación del simulador de órbita de los sistemas exoplanetarios. Contribuciones al EDA (análisis de las distribuciones de los datos y limpieza de los datos).
+- Dan Salgado : Creación del README, contribuciones en el EDA. Encargado de la creación de la página web del proyecto.
+- Esperanza Oliva : Implementación del modelo K-Means (Clustering) sobre la clasificación de exoplanetas según características fisicas. Contribuciones en el EDA, contribuciones en 'habitable_score' .
+
+
 #### Bibliografias:
 
 Referencias Científicas:
@@ -61,7 +69,6 @@ https://burro.astr.cwru.edu/Academics/Astr221/SolarSys/equiltemp.html
 
 Planetary Physical Parameters
 https://ssd.jpl.nasa.gov/planets/phys_par.html
-
 
 ##
 <img src="https://i.postimg.cc/LXMHqzxs/IMG_1543.png" alt="dibujo" width="200"/>

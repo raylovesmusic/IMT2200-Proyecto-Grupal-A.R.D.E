@@ -1,5 +1,9 @@
 ### Metodología para el manejo de datos
-* hola
+Para abordar el estudio de la habitabilidad y diversidad exoplanetaria, se diseñó un flujo de trabajo de Ciencia de Datos reproducible en Python (mediante Jupyter Notebook). 
+
+El procedimiento inicia desde la extracción de datos del NASA Exoplanet Archive (Composite Data), seguida de una etapa de transformación y limpieza. Posteriormente, se realiza el Análisis Exploratorio (EDA) para identificar tendencias temporales y correlaciones astrofísicas entre las propiedades de los planetas. 
+
+Finalmente, se aplican algoritmos de aprendizaje no supervisado, específicamente un modelo de Clustering (K-Means), para intentar segmentar los exoplanetas según sus características y detectar análogos terrestres.
 
 ### Planteamiento de preguntas de análisis:
 * ¿Cómo ha evolucionado el número de descubrimientos de exoplanetas a lo largo de los años?

@@ -53,7 +53,7 @@ La distancia promedio de los exoplanetas divisados hasta la fecha respecto a tie
 Una de las incógnitas más importantes de este proyecto es poder conocer qué propiedades físicas y cualidades caracterizan a la mayoría de los exoplanetas. Por lo que buscamos a partir de los datos del Nasa Exoplanet Archive, poder crear nuestro 'exoplaneta promedio' para responder a esa pregunta. De aquí se desprenden varias otras dudas las cuales es importante esclarecer para poder encaminarnos más cerca de nuestro objetivo :
 
 #### ¿Qué parametros definen si un planeta es similar o no a la tierra?
-A continuación visualizaremos de que forma se distribuyen los datos de algunas columnas del Data Frame. Con y sin outliers:
+A continuación visualizaremos de que forma se distribuyen los datos de algunas columnas del Data Frame. Sin outliers:
 
 !!!!! muchas imagenes:(
 Como podemos ver en estos graficos sin los outliers, las estrellas anfitrionas de los exoplanetas tienden a tener masas y radios similares a los del sol, pero los exoplanetas, en cambio, presentan una mayor variabilidad en sus temperaturas, masas y radios. Esto sugiere que los exoplanetas pueden formarse en una amplia gama de condiciones y que la diversidad de exoplanetas es mucho mayor que la de sus estrellas anfitrionas. Algo interesante que podemos ver es como en el radio de los planetas, una disminucion entre 5 y 10 radios terrestres, lo que podría indicar una transición en la composición o estructura de los exoplanetas en ese rango de tamaño.
@@ -95,8 +95,10 @@ Los siguientes tipos de exoplanetas en general ya no son habitables, por poseer 
 * Gigantes Gaseosos: se componen principalmente de hidrógeno y helio, como Júpiter o Saturno.
 
 * Enanas Marrones: muy grandes por lo que estan entre la definicion de ser planeta o estrella
-!!!!! metodo-del-codo-clasificacion-k-means
-!!!!! clusters-k-means-scatter
+  
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/metodo-del-codo-clasificacion-k-means.png?raw=true" width=100%>
+  
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/clusters-k-means-scatter.png?raw=true" width=100%>
 
 ##### Resumen de resultados
 Por lo tanto los tipos de exoplanetas mas predominantes en el dataset son los tipo "Super-tierra", son mas grandes que la tierra , lo cual corresponde a las tendencias dadas por estudios del catálogo del archivo de la NASA siendo este tipo el más común detectado hasta ahora, superando en número a los gigantes gaseosos o a los planetas rocosos del tamaño de la Tierra. (Batalha 2014; NASA Science, 2025).
@@ -124,8 +126,9 @@ Para ello se busca informacion para obtener los parametros de valores referncial
     - https://ssd.jpl.nasa.gov/planets/phys_par.html
 
 Además se dan valores de tolerancia y weight que correspondes a valores definidos por nosotros para poder penalizar y centrar en un rango los valores de similitud de la tierra con cada exoplaneta
-!!!!! exoplanets-habitable-scores-barplot
-!!!!! exoplanets-habitable-score-exo-type-barplot
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/exoplanets-habitable-scores-barplot.png?raw=true" width=100%>
+
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/exoplanets-habitable-score-exo-type-barplot.png?raw=true" width=100%>
 
 ##### Resumen de resultados
 Con este grafico de barras podemos ver que el tipo de exoplaneta con mayor probabilidad de habitabilidad es el rocoso/super-tierra, lo cual concuerda con la informacion, ya que la tierra es un tipo de planeta rocoso, con una superficie solida y metales, además ubicado mas cerca del sol, por lo que posee una temperatura mas elevada, necesaria para subsistir.
@@ -161,7 +164,7 @@ Lamentablemente para responder esa pregunta se necesitan más datos. Actualmente
 
 Que a su vez bajo un buen contexto podrían contribuir a un modelo más completo y acertado.
 
-!!!!! params-correlation-heatmap
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/params-correlation-heatmap.png?raw=true" width=100%>
 
 Gracias al heatmap, podemos ver que existe una correlacion alta entre pl_orbper (periodo orbital) y la columna "habitable_score" (probabilidad de habitabilidad), lo cual tiene sentido ya que  el periodo orbital es un indicador directo de la distancia del planeta a su estrella anfitriona, la cual es el factor más crítico para determinar la temperatura superficial del planeta y, por lo tanto, la posibilidad de que exista agua líquida.
 

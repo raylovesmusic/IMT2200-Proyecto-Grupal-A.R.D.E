@@ -55,7 +55,10 @@ Una de las incógnitas más importantes de este proyecto es poder conocer qué p
 #### ¿Qué parametros definen si un planeta es similar o no a la tierra?
 A continuación visualizaremos de que forma se distribuyen los datos de algunas columnas del Data Frame. Sin outliers:
 
-!!!!! muchas imagenes:(
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/distribucion-pl_bmasse-clean-boxplot.png?raw=true" width=100%>
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/distribucion-pl_rade-clean-boxplot.png?raw=true" width=100%>
+<img src="https://github.com/raylovesmusic/IMT2200-Proyecto-Grupal-A.R.D.E/blob/main/output-figures/distribucion-st_rad-clean-boxplot.png?raw=true" width=100%>
+
 Como podemos ver en estos graficos sin los outliers, las estrellas anfitrionas de los exoplanetas tienden a tener masas y radios similares a los del sol, pero los exoplanetas, en cambio, presentan una mayor variabilidad en sus temperaturas, masas y radios. Esto sugiere que los exoplanetas pueden formarse en una amplia gama de condiciones y que la diversidad de exoplanetas es mucho mayor que la de sus estrellas anfitrionas. Algo interesante que podemos ver es como en el radio de los planetas, una disminucion entre 5 y 10 radios terrestres, lo que podría indicar una transición en la composición o estructura de los exoplanetas en ese rango de tamaño.
 
 #### ¿Qué sistemas planetarios tienen más planetas detectados, a qué se le podría atribuir esto?

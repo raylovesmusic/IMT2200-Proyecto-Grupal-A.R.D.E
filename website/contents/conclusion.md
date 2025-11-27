@@ -1,0 +1,5 @@
+### ¿Qué podría salir mal?
+
+Uno de los problemas que podría salir mal en general tratando con un tema como el espacio y los exoplanetas, es el margen de error que puede haber en la medición de las variables. Ya que al ser datos obtenidos por distintos instrumentos y misiones, puede haber inconsistencias en la precisión de los datos entre si. Esto podría afectar la exactitud de los análisis y conclusiones derivadas de ellos bajo contextos más serios, especialmente si se utilizan para tomar decisiones o hacer predicciones sobre la formación y características de los exoplanetas. 
+
+Otro posible problema es el sesgo de selección, ya que los exoplanetas detectados pueden no ser representativos respecto de todo lo que aún no conocemos (planetas y cuerpos celestes aún no descubiertos). Esto debido a las limitaciones que hay en los métodos de detección utilizados. Lo que podría llevar a conclusiones erróneas sobre las características y distribución de los exoplanetas en la galaxia como conjunto. Pero que dentro de un contexto como el nuestro (propósito divulgativo) nos permite hacernos una idea general de lo que existe y lo que aún está por descubrirse.

@@ -1,8 +1,8 @@
 ### ¿Será posible mejorar la visualización y la interpretación de la información que nos entrega el dataset para una persona que no es familiar con los datos?
 ### Exoplanet Visualizer
 
-Guardaremos una copia del 'df_exoplanets' con el objetivo de generar modelos 3D que simulen y permitan visualizar el comportamiento de cada sistema y sus órbitas. Esta simulación representará el movimiento de los respectivos exoplanetas de los cuales hay información suficiente como para ser representados.
+Manejamos los datos con el objetivo de generar modelos 3D que simulen y permitan visualizar el comportamiento de cada sistema y sus órbitas. Esta simulación representará el movimiento de los respectivos exoplanetas de los cuales hay información suficiente como para ser representados.
 
 Por practicidad y temas de orden, el código del simulador puede ser encontrado en el notebook titulado 'planet_visualizer.ipynb' ubicado dentro de esta misma carpeta 'notebooks', destinado a cumplir con este objetivo utilizando las herramientas que nos facilitan la librería 'rebound' y 'pygame' de python. (En caso de no tenerla es necesario instalarla previamente a ejecutar dicho notebook).
 
-(poner fotos/gif del simulador en funcionamiento)
+<img src="https://i.postimg.cc/D0nN6N5J/image.png" width=100%>

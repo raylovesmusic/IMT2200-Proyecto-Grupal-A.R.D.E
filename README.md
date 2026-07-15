@@ -1,4 +1,4 @@
-# IMT2200-Proyecto-Grupal-A.R.D.E
+# IMT2200-2025-2_Proyecto_Semestral_(A.R.D.E)
 ## Proyecto Semestral introducción a Ciencia de Datos. 
 ## Integrantes:
 * Agustín Pérez
